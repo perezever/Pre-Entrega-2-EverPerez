@@ -194,14 +194,14 @@ justify-content: space-between;
 
 .foto_tecnico_1 
 {
-
-    
+    background: url(imagenes/fotoeric.jpg);
+    background-repeat: no-repeat;
     margin-top: 2%;
     margin-bottom: 2%;
     width: 200px;
     height: 100px;
     border-radius: 10px;
-    background: #e9dfdf;
+ 
     
    
 }
@@ -220,13 +220,14 @@ justify-content: space-between;
 
 .foto_tecnico_2 
 {
-
+   background: url(imagenes/fotojose.jpg);
+   background-repeat: no-repeat;
     margin-top: 2%;
     margin-bottom: 2%;
     width: 200px;
     height: 100px;
     border-radius: 10px;
-    background: #e9dfdf;
+    /* background: #e9dfdf; */
     
 }
 .dato_tecnico_3
@@ -243,12 +244,14 @@ justify-content: space-between;
 
 .foto_tecnico_3 
 {
+   background: url(imagenes/fotojuancho.jpg);
+   background-repeat: no-repeat;
     margin-top: 2%;
     margin-bottom: 2%;
     width: 200px;
     height: 100px;
     border-radius: 10px;
-    background: #e9dfdf;
+    /* background: #e9dfdf; */
     
 }
 .dato_tecnico_4
@@ -264,13 +267,15 @@ justify-content: space-between;
 }
 
 .foto_tecnico_4 
-{
+{  
+   background: url(imagenes/fotogerman.jpg);
+   background-repeat: no-repeat;
     margin-top: 2%;
     margin-bottom: 2%;
     width: 200px;
     height: 100px;
     border-radius: 10px;
-    background: #e9dfdf;
+    
     
 }
 
