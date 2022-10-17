@@ -19,18 +19,44 @@ grid-template-areas:
 "f9"
 ;
 }
-.foto1
+
+.fondodefoto1
 {
    border-radius: 10%;
    padding: 30%;
    background-color: #e9dfdf;
    grid-area: f1;
+
+} 
+
+.foto1
+{
+   grid-area: f1; 
+    border-radius: 10%;
+   padding: 30%; 
+   background: url(imagenes/fotodetrabajos2C.jpg);
+    background-repeat: no-repeat;
+    display: flex; 
+    flex-direction: center;
+ 
 }
-.foto2
+
+.fondodefoto2
 {
    border-radius: 10%;
    padding: 30%;
    background-color: #e9dfdf;
+   grid-area: f2;
+
+} 
+
+
+.foto2
+{
+   border-radius: 10%;
+   padding: 30%;
+   background: url(imagenes/fotodetrabajos1C.jpg);
+   background-repeat: no-repeat;
    grid-area: f2;
 }
 .foto3
