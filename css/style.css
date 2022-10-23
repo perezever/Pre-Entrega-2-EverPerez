@@ -1,12 +1,2 @@
-/* modo pantalla celular */
-
-.fotodefondo
-{ 
-  
-    background: url(imagenes/precentacion.jpg);   
-     
-   background-size: cover; 
-   background-repeat: no-repeat;
-   background-position: center;
-
-}
+div {
+  background-color: blue; }
