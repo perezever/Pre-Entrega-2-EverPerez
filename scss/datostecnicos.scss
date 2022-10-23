@@ -1,0 +1,204 @@
+  // modo pantalla celular
+
+
+.fondo_gris
+{
+    display: flex; 
+flex-direction: column;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 10px;
+background:#A4A4A4;
+}
+
+
+/* formato de caja de fondo en index2 */
+.fondo_gris_1
+{
+    display: flex; 
+flex-direction: row;
+justify-content: space-between;
+/* background: #A4A4A4; */
+}
+
+.fondo_gris_2
+{
+    display: flex; 
+flex-direction: row;
+justify-content: space-between;
+/* background: #A4A4A4; */
+ 
+}
+
+.fondo_gris_3
+{
+    display: flex; 
+flex-direction: row;
+justify-content: space-between;
+/* background: #A4A4A4; */
+}
+
+
+.fondo_gris_4
+{
+    display: flex; 
+flex-direction: row;
+justify-content: space-between;
+/* background: #A4A4A4; */
+}
+
+
+
+.dato_tecnico_1
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    background: #e9dfdf;
+  
+}
+
+.foto_tecnico_1 
+{
+    background: url(../imagenes/fotoeric.jpg);
+    background-repeat: no-repeat;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+ 
+    
+   
+}
+.dato_tecnico_2
+{
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    background: #e9dfdf;
+
+   
+}
+
+.foto_tecnico_2 
+{
+   background: url(../imagenes/fotojose.jpg);
+   background-repeat: no-repeat;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    /* background: #e9dfdf; */
+    
+}
+.dato_tecnico_3
+{
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    background: #e9dfdf;
+    
+}
+
+.foto_tecnico_3 
+{
+   background: url(../imagenes/fotojuancho.jpg);
+   background-repeat: no-repeat;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    /* background: #e9dfdf; */
+    
+}
+.dato_tecnico_4
+{
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    background: #e9dfdf;
+   
+}
+
+.foto_tecnico_4 
+{  
+   background: url(../imagenes/fotogerman.jpg);
+   background-repeat: no-repeat;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    
+    
+}
+
+.foto_tecnico_1:hover
+ {
+    transform: scale(1.5) ;
+ }
+
+ 
+.foto_tecnico_2:hover
+{
+   transform: scale(1.5) ;
+}
+
+
+.foto_tecnico_3:hover
+ {
+    transform: scale(1.5) ;
+ }
+
+ 
+.foto_tecnico_4:hover
+{
+   transform: scale(1.5) ;
+}
+
+@media screen and (min-width: 768px) 
+{
+  // modo pantalla laptop
+
+
+    .dato_tecnico_1
+ {
+     width: 600px;
+ }
+
+ .dato_tecnico_2
+ {
+     width: 600px;
+ }
+
+ .dato_tecnico_3
+ {
+     width: 600px;
+ }
+
+ .dato_tecnico_4
+ {
+     width: 600px;
+ }
+
+ .foto_pantalla_5
+ {
+   min-height: 500px;
+ }
+}

@@ -1,2 +1,273 @@
-div {
-  background-color: blue; }
+body {
+  margin: 10px !important;
+  background-color: black !important; }
+
+/* imagen en toda la pantalla */
+.foto_pantalla_5 {
+  margin: 3%;
+  min-height: 100px;
+  background: url(imagenes/foto_chica_atendiendo_llamado.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: sans-serif;
+  border-radius: 2em; }
+
+/* agenda en agendaunturno */
+.agenda {
+  padding-bottom: 1em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 60%;
+  background: url(imagenes/agenda.jpg);
+  width: 280px;
+  height: 100px;
+  border-radius: 1em; }
+
+/* fecha disponible */
+.fecha_disponible {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 1em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 60%;
+  width: 280px;
+  height: 100px;
+  background: #e9dfdf;
+  border-radius: 1em; }
+
+@media screen and (min-width: 768px) {
+  .agenda {
+    width: 95%;
+    height: 100px; }
+  .fecha_disponible {
+    width: 95%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center; }
+  .botonapresupuestos {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 100px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center; } }
+
+.fondo_gris {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background: #A4A4A4; }
+
+/* formato de caja de fondo en index2 */
+.fondo_gris_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background: #A4A4A4; */ }
+
+.fondo_gris_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background: #A4A4A4; */ }
+
+.fondo_gris_3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background: #A4A4A4; */ }
+
+.fondo_gris_4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background: #A4A4A4; */ }
+
+.dato_tecnico_1 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 400px;
+  height: 100px;
+  border-radius: 10px;
+  background: #e9dfdf; }
+
+.foto_tecnico_1 {
+  background: url(imagenes/fotoeric.jpg);
+  background-repeat: no-repeat;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 200px;
+  height: 100px;
+  border-radius: 10px; }
+
+.dato_tecnico_2 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 400px;
+  height: 100px;
+  border-radius: 10px;
+  background: #e9dfdf; }
+
+.foto_tecnico_2 {
+  background: url(imagenes/fotojose.jpg);
+  background-repeat: no-repeat;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  /* background: #e9dfdf; */ }
+
+.dato_tecnico_3 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 400px;
+  height: 100px;
+  border-radius: 10px;
+  background: #e9dfdf; }
+
+.foto_tecnico_3 {
+  background: url(imagenes/fotojuancho.jpg);
+  background-repeat: no-repeat;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  /* background: #e9dfdf; */ }
+
+.dato_tecnico_4 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 400px;
+  height: 100px;
+  border-radius: 10px;
+  background: #e9dfdf; }
+
+.foto_tecnico_4 {
+  background: url(imagenes/fotogerman.jpg);
+  background-repeat: no-repeat;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 200px;
+  height: 100px;
+  border-radius: 10px; }
+
+.foto_tecnico_1:hover {
+  transform: scale(1.5); }
+
+.foto_tecnico_2:hover {
+  transform: scale(1.5); }
+
+.foto_tecnico_3:hover {
+  transform: scale(1.5); }
+
+.foto_tecnico_4:hover {
+  transform: scale(1.5); }
+
+@media screen and (min-width: 768px) {
+  .dato_tecnico_1 {
+    width: 600px; }
+  .dato_tecnico_2 {
+    width: 600px; }
+  .dato_tecnico_3 {
+    width: 600px; }
+  .dato_tecnico_4 {
+    width: 600px; }
+  .foto_pantalla_5 {
+    min-height: 500px; } }
+
+.fotosdetrabajos {
+  padding: 10%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: "f1" "f2" "f3" "f4" "f5" "f6" "f7" "f8" "f9"; }
+
+.fondodefoto1 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #e9dfdf;
+  grid-area: f1; }
+
+.foto1 {
+  grid-area: f1;
+  border-radius: 10%;
+  padding: 30%;
+  background: url(imagenes/fotodetrabajos2C.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: center; }
+
+.fondodefoto2 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #e9dfdf;
+  grid-area: f2; }
+
+.foto2 {
+  border-radius: 10%;
+  padding: 30%;
+  background: url(imagenes/fotodetrabajos1C.jpg);
+  background-repeat: no-repeat;
+  grid-area: f2; }
+
+.foto3 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #e9dfdf;
+  grid-area: f3; }
+
+.foto4 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #e9dfdf;
+  grid-area: f4; }
+
+.foto5 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #e9dfdf;
+  grid-area: f5; }
+
+.foto6 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #e9dfdf;
+  grid-area: f6; }
+
+.foto7 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #e9dfdf;
+  grid-area: f7; }
+
+.foto8 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #e9dfdf;
+  grid-area: f8; }
+
+.foto9 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #e9dfdf;
+  grid-area: f9; }
+
+@media screen and (min-width: 768px) {
+  .fotosdetrabajos {
+    padding: 3%;
+    grid-template-areas: "f1 f2 f3" "f4 f5 f6" "f7 f8 f9"; } }
