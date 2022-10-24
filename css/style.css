@@ -2,11 +2,106 @@ body {
   margin: 10px !important;
   background-color: black !important; }
 
+.fotodefondo {
+  margin-top: 20px;
+  border-radius: 40px;
+  padding: 100px;
+  background: url(../imagenes/precentacion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: entrada-superior;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  animation-delay: 1s; }
+
+.contenido6 {
+  background-color: #e9dfdf;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
+  align-items: flex-start; }
+
+.fotohistoria {
+  background: url(../imagenes/tecnico_instalando_aire.jpg);
+  margin-top: 20px;
+  border-radius: 40px;
+  padding: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: entrada-superior;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s; }
+
+.linkapaginas {
+  margin: 6%;
+  border-radius: 40px;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #e9f9ff; }
+
+.historia {
+  width: 200px;
+  height: 200px;
+  background: #e9f9ff;
+  border-radius: 10px; }
+
+@keyframes entrada-superior {
+  0% {
+    transform: translateY(-500px); }
+  100% {
+    transform: translateY(0px); } }
+
+@media screen and (min-width: 768px) {
+  .fotodefondo {
+    margin-top: 20px;
+    border-radius: 40px;
+    padding: 260px;
+    background: url(../imagenes/precentacion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: entrada-superior;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    animation-delay: 1s; }
+  .fotohistoria {
+    padding: 0px; }
+  .linkapaginas {
+    margin: 6%;
+    border-radius: 40px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #e9f9ff; }
+  .linkapaginas:hover {
+    transform: scale(1.5); } }
+
 /* imagen en toda la pantalla */
 .foto_pantalla_5 {
   margin: 3%;
   min-height: 100px;
-  background: url(imagenes/foto_chica_atendiendo_llamado.jpg);
+  background: url(../imagenes/foto_chica_atendiendo_llamado.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,7 +115,7 @@ body {
   margin-bottom: 2%;
   margin-left: 2%;
   margin-right: 60%;
-  background: url(imagenes/agenda.jpg);
+  background: url(../imagenes/agenda.jpg);
   width: 280px;
   height: 100px;
   border-radius: 1em; }
@@ -106,7 +201,7 @@ body {
   background: #e9dfdf; }
 
 .foto_tecnico_1 {
-  background: url(imagenes/fotoeric.jpg);
+  background: url(../imagenes/fotoeric.jpg);
   background-repeat: no-repeat;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -123,7 +218,7 @@ body {
   background: #e9dfdf; }
 
 .foto_tecnico_2 {
-  background: url(imagenes/fotojose.jpg);
+  background: url(../imagenes/fotojose.jpg);
   background-repeat: no-repeat;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -141,7 +236,7 @@ body {
   background: #e9dfdf; }
 
 .foto_tecnico_3 {
-  background: url(imagenes/fotojuancho.jpg);
+  background: url(../imagenes/fotojuancho.jpg);
   background-repeat: no-repeat;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -159,7 +254,7 @@ body {
   background: #e9dfdf; }
 
 .foto_tecnico_4 {
-  background: url(imagenes/fotogerman.jpg);
+  background: url(../imagenes/fotogerman.jpg);
   background-repeat: no-repeat;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -207,7 +302,7 @@ body {
   grid-area: f1;
   border-radius: 10%;
   padding: 30%;
-  background: url(imagenes/fotodetrabajos2C.jpg);
+  background: url(../imagenes/fotodetrabajos2C.jpg);
   background-repeat: no-repeat;
   display: flex;
   flex-direction: center; }
@@ -221,7 +316,7 @@ body {
 .foto2 {
   border-radius: 10%;
   padding: 30%;
-  background: url(imagenes/fotodetrabajos1C.jpg);
+  background: url(../imagenes/fotodetrabajos1C.jpg);
   background-repeat: no-repeat;
   grid-area: f2; }
 

@@ -69,9 +69,18 @@ border-radius: 10px;
    align-content: space-around;
    flex-wrap: nowrap;
    justify-content: space-between;   
-    background-color: rgb(220 220 220);
+   background-color: #e9f9ff; 
  
- } 
+ }
+  
+ .historia
+{
+    width: 200px;  
+    height: 200px;
+    background: #e9f9ff; 
+    border-radius: 10px;
+    
+}
 
  
  @keyframes entrada-superior{
@@ -102,7 +111,7 @@ border-radius: 10px;
        animation-name: entrada-superior;
        animation-duration: 2s; 
        animation-iteration-count: 1;
-       animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);;
+       animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
        animation-delay: 1s;
     }
     
@@ -122,7 +131,7 @@ border-radius: 10px;
        align-content: space-around;
        flex-wrap: nowrap;
        justify-content: space-between;   
-        background-color: rgb(220 220 220);
+       background-color: #e9f9ff;
      
      } 
     
