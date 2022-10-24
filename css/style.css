@@ -82,7 +82,17 @@ body {
     animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
     animation-delay: 1s; }
   .fotohistoria {
-    padding: 0px; }
+    background: url(../imagenes/tecnico_instalando_aire.jpg);
+    margin-top: 20px;
+    border-radius: 40px;
+    padding: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: entrada-superior;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s; }
   .linkapaginas {
     margin: 6%;
     border-radius: 40px;
@@ -295,7 +305,7 @@ body {
 .fondodefoto1 {
   border-radius: 10%;
   padding: 30%;
-  background-color: #e9dfdf;
+  background-color: #fe0b0b;
   grid-area: f1; }
 
 .foto1 {
@@ -310,7 +320,7 @@ body {
 .fondodefoto2 {
   border-radius: 10%;
   padding: 30%;
-  background-color: #e9dfdf;
+  background-color: #fe0b0b;
   grid-area: f2; }
 
 .foto2 {
@@ -320,46 +330,94 @@ body {
   background-repeat: no-repeat;
   grid-area: f2; }
 
+.fondodefoto3 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #fe0b0b;
+  grid-area: f3; }
+
 .foto3 {
   border-radius: 10%;
   padding: 30%;
-  background-color: #e9dfdf;
+  background-color: #fe0b0b;
+  grid-area: f3; }
+
+.fondodefoto3 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #fe0b0b;
   grid-area: f3; }
 
 .foto4 {
   border-radius: 10%;
   padding: 30%;
-  background-color: #e9dfdf;
+  background-color: #fe0b0b;
+  grid-area: f4; }
+
+.fondodefoto4 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #fe0b0b;
   grid-area: f4; }
 
 .foto5 {
   border-radius: 10%;
   padding: 30%;
-  background-color: #e9dfdf;
+  background-color: #fe0b0b;
+  grid-area: f5; }
+
+.fondodefoto5 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #fe0b0b;
   grid-area: f5; }
 
 .foto6 {
   border-radius: 10%;
   padding: 30%;
-  background-color: #e9dfdf;
+  background-color: #fe0b0b;
+  grid-area: f6; }
+
+.fondodefoto6 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #fe0b0b;
   grid-area: f6; }
 
 .foto7 {
   border-radius: 10%;
   padding: 30%;
-  background-color: #e9dfdf;
+  background-color: #fe0b0b;
+  grid-area: f7; }
+
+.fondodefoto7 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #fe0b0b;
   grid-area: f7; }
 
 .foto8 {
   border-radius: 10%;
   padding: 30%;
-  background-color: #e9dfdf;
+  background-color: #fe0b0b;
+  grid-area: f8; }
+
+.fondodefoto8 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #fe0b0b;
   grid-area: f8; }
 
 .foto9 {
   border-radius: 10%;
   padding: 30%;
-  background-color: #e9dfdf;
+  background-color: #fe0b0b;
+  grid-area: f9; }
+
+.fondodefoto9 {
+  border-radius: 10%;
+  padding: 30%;
+  background-color: #fe0b0b;
   grid-area: f9; }
 
 @media screen and (min-width: 768px) {

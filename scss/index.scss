@@ -115,10 +115,26 @@ border-radius: 10px;
        animation-delay: 1s;
     }
     
-    .fotohistoria
-    {
-       padding: 0px;  
-    }
+.fotohistoria
+{
+   
+   background: url(../imagenes/tecnico_instalando_aire.jpg);
+   margin-top: 20px;
+   border-radius: 40px;
+   padding: 100px;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   animation-name: entrada-superior;
+   animation-duration: 2s; 
+   animation-iteration-count: 1;
+   animation-timing-function: ease-in-out;
+   animation-delay: 1s;
+    
+
+
+
+      }
     
     .linkapaginas
      {

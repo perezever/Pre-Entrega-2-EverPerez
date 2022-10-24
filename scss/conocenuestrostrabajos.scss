@@ -1,6 +1,9 @@
 
 // modo pantalla celular
 
+// variable
+$color_fondodefoto: #fe0b0b;
+
 .fotosdetrabajos
 {
 padding: 10%;
@@ -23,7 +26,7 @@ grid-template-areas:
 {
    border-radius: 10%;
    padding: 30%;
-   background-color: #e9dfdf;
+   background-color:  $color_fondodefoto;
    grid-area: f1;
 
 } 
@@ -44,7 +47,7 @@ grid-template-areas:
 {
    border-radius: 10%;
    padding: 30%;
-   background-color: #e9dfdf;
+   background-color: $color_fondodefoto;
    grid-area: f2;
 
 } 
@@ -58,55 +61,135 @@ grid-template-areas:
    background-repeat: no-repeat;
    grid-area: f2;
 }
+
+.fondodefoto3
+{
+   border-radius: 10%;
+   padding: 30%;
+   background-color: $color_fondodefoto;
+   grid-area: f3;
+
+} 
+
 .foto3
 {
    border-radius: 10%;
    padding: 30%;
-   background-color: #e9dfdf;
+   background-color: $color_fondodefoto;;
    grid-area: f3;
 }
+
+.fondodefoto3
+{
+   border-radius: 10%;
+   padding: 30%;
+   background-color: $color_fondodefoto;
+   grid-area: f3;
+
+} 
+
 .foto4
 {
    border-radius: 10%;
    padding: 30%;
-   background-color: #e9dfdf;
+   background-color: $color_fondodefoto;
    grid-area: f4;
 }
+
+.fondodefoto4
+{
+   border-radius: 10%;
+   padding: 30%;
+   background-color: $color_fondodefoto;
+   grid-area: f4;
+
+} 
+
 .foto5
 {
    border-radius: 10%;
    padding: 30%;
-   background-color: #e9dfdf;
+   background-color: $color_fondodefoto;
    grid-area: f5;
 }
+
+.fondodefoto5
+{
+   border-radius: 10%;
+   padding: 30%;
+   background-color: $color_fondodefoto;
+   grid-area: f5;
+
+} 
+
 .foto6
 {
    border-radius: 10%;
    padding: 30%;
-   background-color: #e9dfdf;
+   background-color: $color_fondodefoto;
    grid-area: f6;
 }
+
+.fondodefoto6
+{
+   border-radius: 10%;
+   padding: 30%;
+   background-color: $color_fondodefoto;
+   grid-area: f6;
+
+} 
+
 .foto7
 {
    border-radius: 10%;
    padding: 30%;
-   background-color: #e9dfdf;
+   background-color: $color_fondodefoto;
    grid-area: f7;
 }
+
+.fondodefoto7
+{
+   border-radius: 10%;
+   padding: 30%;
+   background-color: $color_fondodefoto;
+   grid-area: f7;
+
+} 
+
 .foto8
 {
    border-radius: 10%;
    padding: 30%;
-   background-color: #e9dfdf;
+   background-color: $color_fondodefoto;
    grid-area: f8;
 }
+
+.fondodefoto8
+{
+   border-radius: 10%;
+   padding: 30%;
+   background-color: $color_fondodefoto;
+   grid-area: f8;
+
+} 
+
 .foto9
 {
    border-radius: 10%;
    padding: 30%;
-   background-color: #e9dfdf;
+   background-color: $color_fondodefoto;
    grid-area:f9;
 }
+
+.fondodefoto9
+{
+   border-radius: 10%;
+   padding: 30%;
+   background-color: $color_fondodefoto;
+   grid-area: f9;
+
+} 
+
 
 @media screen and (min-width: 768px) 
 {
