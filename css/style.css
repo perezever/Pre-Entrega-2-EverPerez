@@ -26,9 +26,10 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 10px;
-  /* justify-content: space-between; */
   justify-content: space-evenly;
   align-items: flex-start; }
+  .contenido6 h1 {
+    color: black; }
 
 .fotohistoria {
   background: url(../imagenes/tecnico_instalando_aire.jpg);
@@ -181,26 +182,22 @@ body {
 .fondo_gris_1 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  /* background: #A4A4A4; */ }
+  justify-content: space-between; }
 
 .fondo_gris_2 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  /* background: #A4A4A4; */ }
+  justify-content: space-between; }
 
 .fondo_gris_3 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  /* background: #A4A4A4; */ }
+  justify-content: space-between; }
 
 .fondo_gris_4 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  /* background: #A4A4A4; */ }
+  justify-content: space-between; }
 
 .dato_tecnico_1 {
   margin-top: 2%;
@@ -234,8 +231,7 @@ body {
   margin-bottom: 2%;
   width: 200px;
   height: 100px;
-  border-radius: 10px;
-  /* background: #e9dfdf; */ }
+  border-radius: 10px; }
 
 .dato_tecnico_3 {
   margin-top: 2%;
@@ -252,8 +248,7 @@ body {
   margin-bottom: 2%;
   width: 200px;
   height: 100px;
-  border-radius: 10px;
-  /* background: #e9dfdf; */ }
+  border-radius: 10px; }
 
 .dato_tecnico_4 {
   margin-top: 2%;

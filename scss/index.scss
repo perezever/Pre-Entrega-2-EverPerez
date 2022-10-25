@@ -32,9 +32,14 @@ margin-bottom: 20px;
 margin-left: 20px;
 margin-right: 20px;
 border-radius: 10px;
- /* justify-content: space-between; */
-   justify-content: space-evenly;
-   align-items: flex-start;
+justify-content: space-evenly;
+align-items: flex-start;
+
+// introducimos el h1 dentro de contenido6
+h1{
+   color:black;
+}
+
 }
 
 

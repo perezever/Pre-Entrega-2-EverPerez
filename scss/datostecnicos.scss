@@ -1,52 +1,54 @@
+  $color_fondogris:#A4A4A4;
+  
   // modo pantalla celular
 
 
 .fondo_gris
 {
-    display: flex; 
+display: flex; 
 flex-direction: column;
 margin-top: 20px;
 margin-bottom: 20px;
 margin-left: 20px;
 margin-right: 20px;
 border-radius: 10px;
-background:#A4A4A4;
+background:$color_fondogris;
 }
 
 
 /* formato de caja de fondo en index2 */
 .fondo_gris_1
 {
-    display: flex; 
+display: flex; 
 flex-direction: row;
 justify-content: space-between;
-/* background: #A4A4A4; */
+
 }
 
 .fondo_gris_2
 {
-    display: flex; 
+display: flex; 
 flex-direction: row;
 justify-content: space-between;
-/* background: #A4A4A4; */
+
  
 }
 
 .fondo_gris_3
 {
-    display: flex; 
+display: flex; 
 flex-direction: row;
 justify-content: space-between;
-/* background: #A4A4A4; */
+
 }
 
 
 .fondo_gris_4
 {
-    display: flex; 
+display: flex; 
 flex-direction: row;
 justify-content: space-between;
-/* background: #A4A4A4; */
+
 }
 
 
@@ -97,7 +99,7 @@ justify-content: space-between;
     width: 200px;
     height: 100px;
     border-radius: 10px;
-    /* background: #e9dfdf; */
+    
     
 }
 .dato_tecnico_3
@@ -121,7 +123,7 @@ justify-content: space-between;
     width: 200px;
     height: 100px;
     border-radius: 10px;
-    /* background: #e9dfdf; */
+  
     
 }
 .dato_tecnico_4
