@@ -299,123 +299,196 @@ body {
 
 .fondodefoto1 {
   border-radius: 10%;
-  padding: 30%;
   background-color: #d9d5d5;
-  grid-area: f1; }
+  grid-area: f1;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center; }
 
 .foto1 {
-  grid-area: f1;
-  border-radius: 10%;
-  padding: 30%;
-  background: url(../imagenes/fotodetrabajos2C.jpg);
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: center; }
-
-.fondodefoto2 {
-  border-radius: 10%;
-  padding: 30%;
-  background-color: #d9d5d5;
-  grid-area: f2; }
-
-.foto2 {
+  height: auto;
+  max-width: 100%;
+  margin: 2%;
   border-radius: 10%;
   padding: 30%;
   background: url(../imagenes/fotodetrabajos1C.jpg);
   background-repeat: no-repeat;
+  grid-area: f1; }
+
+.fondodefoto2 {
+  border-radius: 10%;
+  background-color: #d9d5d5;
+  grid-area: f2;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center; }
+
+.foto2 {
+  margin: 2%;
+  border-radius: 10%;
+  padding: 30%;
+  background: url(../imagenes/fotodetrabajos2C.jpg);
+  background-repeat: no-repeat;
   grid-area: f2; }
 
 .fondodefoto3 {
   border-radius: 10%;
-  padding: 30%;
   background-color: #d9d5d5;
-  grid-area: f3; }
+  grid-area: f3;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center; }
 
 .foto3 {
+  margin: 2%;
   border-radius: 10%;
   padding: 30%;
-  background-color: #d9d5d5;
+  background: url(../imagenes/fotodetrabajos3C.jpg);
+  background-repeat: no-repeat;
   grid-area: f3; }
-
-.fondodefoto3 {
-  border-radius: 10%;
-  padding: 30%;
-  background-color: #d9d5d5;
-  grid-area: f3; }
-
-.foto4 {
-  border-radius: 10%;
-  padding: 30%;
-  background-color: #d9d5d5;
-  grid-area: f4; }
 
 .fondodefoto4 {
   border-radius: 10%;
-  padding: 30%;
   background-color: #d9d5d5;
-  grid-area: f4; }
+  grid-area: f4;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center; }
 
-.foto5 {
+.foto4 {
+  margin: 2%;
   border-radius: 10%;
   padding: 30%;
-  background-color: #d9d5d5;
-  grid-area: f5; }
+  background: url(../imagenes/fotodetrabajos4C.jpg);
+  background-repeat: no-repeat;
+  grid-area: f4; }
 
 .fondodefoto5 {
   border-radius: 10%;
-  padding: 30%;
   background-color: #d9d5d5;
-  grid-area: f5; }
+  grid-area: f5;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center; }
 
-.foto6 {
+.foto5 {
+  margin: 2%;
   border-radius: 10%;
   padding: 30%;
-  background-color: #d9d5d5;
-  grid-area: f6; }
+  background: url(../imagenes/fotodetrabajos5C.jpg);
+  background-repeat: no-repeat;
+  grid-area: f5; }
 
 .fondodefoto6 {
   border-radius: 10%;
-  padding: 30%;
   background-color: #d9d5d5;
-  grid-area: f6; }
+  grid-area: f6;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center; }
 
-.foto7 {
+.foto6 {
+  margin: 2%;
   border-radius: 10%;
   padding: 30%;
-  background-color: #d9d5d5;
-  grid-area: f7; }
+  background: url(../imagenes/fotodetrabajos6C.jpg);
+  background-repeat: no-repeat;
+  grid-area: f6; }
 
 .fondodefoto7 {
   border-radius: 10%;
-  padding: 30%;
   background-color: #d9d5d5;
-  grid-area: f7; }
+  grid-area: f7;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center; }
 
-.foto8 {
+.foto7 {
+  margin: 2%;
   border-radius: 10%;
   padding: 30%;
-  background-color: #d9d5d5;
-  grid-area: f8; }
+  background: url(../imagenes/fotodetrabajos7C.jpg);
+  background-repeat: no-repeat;
+  grid-area: f7; }
 
 .fondodefoto8 {
   border-radius: 10%;
-  padding: 30%;
   background-color: #d9d5d5;
-  grid-area: f8; }
+  grid-area: f8;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center; }
 
-.foto9 {
+.foto8 {
+  margin: 2%;
   border-radius: 10%;
   padding: 30%;
-  background-color: #d9d5d5;
-  grid-area: f9; }
+  background: url(../imagenes/fotodetrabajos8C.jpg);
+  background-repeat: no-repeat;
+  grid-area: f8; }
 
 .fondodefoto9 {
   border-radius: 10%;
-  padding: 30%;
   background-color: #d9d5d5;
+  grid-area: f9;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center; }
+
+.foto9 {
+  margin: 2%;
+  border-radius: 10%;
+  padding: 30%;
+  background: url(../imagenes/fotodetrabajos9C.jpg);
+  background-repeat: no-repeat;
   grid-area: f9; }
 
 @media screen and (min-width: 768px) {
   .fotosdetrabajos {
     padding: 3%;
-    grid-template-areas: "f1 f2 f3" "f4 f5 f6" "f7 f8 f9"; } }
+    grid-template-areas: "f1 f2 f3" "f4 f5 f6" "f7 f8 f9"; }
+  .foto1 {
+    background: url(../imagenes/fotodetrabajos1L.jpg);
+    background-repeat: no-repeat; }
+  .foto2 {
+    background: url(../imagenes/fotodetrabajos2L.jpg);
+    background-repeat: no-repeat; }
+  .foto3 {
+    background: url(../imagenes/fotodetrabajos3L.jpg);
+    background-repeat: no-repeat; }
+  .foto4 {
+    background: url(../imagenes/fotodetrabajos4L.jpg);
+    background-repeat: no-repeat; }
+  .foto5 {
+    background: url(../imagenes/fotodetrabajos5L.jpg);
+    background-repeat: no-repeat; }
+  .foto6 {
+    background: url(../imagenes/fotodetrabajos6L.jpg);
+    background-repeat: no-repeat; }
+  .foto7 {
+    background: url(../imagenes/fotodetrabajos7L.jpg);
+    background-repeat: no-repeat; }
+  .foto8 {
+    background: url(../imagenes/fotodetrabajos8L.jpg);
+    background-repeat: no-repeat; }
+  .foto9 {
+    background: url(../imagenes/fotodetrabajos9L.jpg);
+    background-repeat: no-repeat; } }

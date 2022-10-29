@@ -1,0 +1,239 @@
+
+// modo pantalla celular
+
+// variable
+$color_fondodefoto: #d9d5d5;
+
+.fotosdetrabajos
+{
+padding: 10%;
+display: grid;
+grid-gap: 1.25rem;
+grid-template-areas:
+"f1"
+"f2"
+"f3"
+"f4"
+"f5"
+"f6"
+"f7"
+"f8"
+"f9"
+;
+}
+.fondodefoto1
+{
+   @include fondodefoto;
+   background-color: $color_fondodefoto;
+   grid-area: f1;
+ 
+
+      .foto1
+   {
+     @include fotos;
+     background: url(../imagenes/fotodetrabajos1C.jpg);
+     grid-area: f1;
+   }
+} 
+
+
+
+
+
+
+.fondodefoto2
+{
+   @include fondodefoto;
+   background-color: $color_fondodefoto;
+   grid-area: f2;
+ 
+ 
+   .foto2
+   {
+   @include fotos;
+   background: url(../imagenes/fotodetrabajos2C.jpg);
+   grid-area: f2;
+   }
+}
+
+
+.fondodefoto3
+{
+   @include fondodefoto;
+   background-color: $color_fondodefoto;
+   grid-area: f3;
+ 
+ 
+   .foto3
+   {
+   @include fotos;
+   background: url(../imagenes/fotodetrabajos3C.jpg);
+   grid-area: f3;
+   }  
+}
+
+
+.fondodefoto4
+{
+   @include fondodefoto;
+   background-color: $color_fondodefoto;
+   grid-area: f4;
+ 
+ 
+   .foto4
+   {
+   
+   @include fotos;
+   background: url(../imagenes/fotodetrabajos4C.jpg);
+   grid-area: f4;
+   }
+}
+
+
+
+.fondodefoto5
+{
+   @include fondodefoto;
+   background-color: $color_fondodefoto;
+   grid-area: f5;
+ 
+   .foto5
+   {
+   @include fotos;
+   background: url(../imagenes/fotodetrabajos5C.jpg);
+   grid-area: f5;
+   }  
+}
+
+.fondodefoto6
+{
+   @include fondodefoto;
+   background-color: $color_fondodefoto;
+   grid-area: f6;
+ 
+   .foto6
+   {
+   @include fotos;
+   background: url(../imagenes/fotodetrabajos6C.jpg);
+   grid-area: f6;
+   }  
+
+}
+
+.fondodefoto7
+{
+   @include fondodefoto;
+   background-color: $color_fondodefoto;
+   grid-area: f7;
+ 
+ 
+   .foto7
+   {
+   @include fotos;
+   background: url(../imagenes/fotodetrabajos7C.jpg);
+   grid-area: f7;
+   }
+
+}
+
+
+.fondodefoto8
+{
+   @include fondodefoto;
+   background-color: $color_fondodefoto;
+   grid-area: f8;
+ 
+   .foto8
+   {
+   @include fotos;
+   background: url(../imagenes/fotodetrabajos8C.jpg);
+   grid-area: f8;
+   }  
+
+}
+
+
+.fondodefoto9
+{
+   @include fondodefoto;
+   background-color: $color_fondodefoto;
+   grid-area: f9;
+ 
+ 
+   .foto9
+   {
+   @include fotos;
+   background: url(../imagenes/fotodetrabajos9C.jpg);
+   grid-area:f9;
+   }
+}
+
+
+@media screen and (min-width: 768px) 
+{
+ 
+ // modo pantalla laptop
+   .fotosdetrabajos
+{
+   padding: 3%;
+   grid-template-areas:
+   "f1 f2 f3"
+   "f4 f5 f6"
+   "f7 f8 f9"
+   ;
+}
+
+.foto1
+{
+   background: url(../imagenes/fotodetrabajos1L.jpg);
+   background-repeat: no-repeat;
+}
+
+.foto2
+{
+    background: url(../imagenes/fotodetrabajos2L.jpg);
+    background-repeat: no-repeat;
+}
+
+.foto3
+{
+    background: url(../imagenes/fotodetrabajos3L.jpg);
+    background-repeat: no-repeat;
+}
+
+.foto4
+{
+   background: url(../imagenes/fotodetrabajos4L.jpg);
+   background-repeat: no-repeat;
+}
+
+.foto5
+{
+    background: url(../imagenes/fotodetrabajos5L.jpg);
+    background-repeat: no-repeat;
+}
+
+.foto6
+{
+    background: url(../imagenes/fotodetrabajos6L.jpg);
+    background-repeat: no-repeat;
+}
+
+.foto7
+{
+   background: url(../imagenes/fotodetrabajos7L.jpg);
+   background-repeat: no-repeat;
+}
+
+.foto8
+{
+    background: url(../imagenes/fotodetrabajos8L.jpg);
+    background-repeat: no-repeat;
+}
+
+.foto9
+{
+    background: url(../imagenes/fotodetrabajos9L.jpg);
+    background-repeat: no-repeat;
+}
+}

@@ -1,0 +1,16 @@
+@mixin fotos {
+    margin: 2%;
+    border-radius: 10%;
+    padding: 30%;
+    background-repeat: no-repeat;
+}
+
+@mixin fondodefoto
+{
+   border-radius: 10%;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-content: space-around;
+   align-items: center;
+}
