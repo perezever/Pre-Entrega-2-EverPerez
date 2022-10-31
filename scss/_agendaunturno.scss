@@ -1,37 +1,23 @@
+
+@import"mixin";
+
 // modo pantalla celular
 
 /* agenda en agendaunturno */
 .agenda
 {
-
-    padding-bottom: 1em;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 2%;
-    margin-right: 60%;
-    background: url(../imagenes/agenda.jpg);  
-    width: 280px;
-    height: 100px;
-    border-radius: 1em;
-   
+   background: url(../imagenes/agenda.jpg);  
+   @include agendaa;
 }
 
 /* fecha disponible */
 .fecha_disponible
 {
    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-bottom: 1em;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 2%;
-    margin-right: 60%;
-    width: 280px;
-    height: 100px;
-    background: #e9dfdf;
-    border-radius: 1em;
-   
+   flex-direction: row;
+   align-items: center;
+   background: #e9dfdf;
+   @include agendaa;
 }
 
 @media screen and (min-width: 768px) 
@@ -53,6 +39,8 @@
   align-content: center;
   justify-content: space-around;
   align-items: center;
+
+  
 }
 
 .botonapresupuestos

@@ -1,16 +1,83 @@
-@mixin fotos {
-    margin: 2%;
-    border-radius: 10%;
-    padding: 30%;
-    background-repeat: no-repeat;
-}
 
-@mixin fondodefoto
+
+@mixin fondodefoto($color_fondodefoto: #d9d5d5) 
 {
+   background-color: $color_fondodefoto;
    border-radius: 10%;
    display: flex;
    flex-wrap: nowrap;
    justify-content: center;
    align-content: space-around;
    align-items: center;
+}
+ 
+@mixin fotos 
+{
+    font-size: 2rem;
+    margin: 2%;        
+    border-radius: 10%;
+    padding: 30%;
+    background-repeat: no-repeat;
+
+   
+}
+
+@mixin fotos_index
+{
+   margin-top: 1.25rem;
+   border-radius: 2.5rem;
+ 
+}
+
+@mixin animacion
+{
+   animation-name: entrada-superior;
+   animation-duration: 2s; 
+   animation-iteration-count: 1;
+   animation-delay: 1s;
+    
+}
+
+@mixin fondogris
+{
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+@mixin datotecnico
+{
+   
+      margin-top: 2%;
+      margin-bottom: 2%;
+      width: 400px;
+      height: 100px;
+      border-radius: 10px;
+      background: #e9dfdf;
+    
+  
+}
+
+@mixin fototecnico
+{
+   background-repeat: no-repeat;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   width: 200px;
+   height: 100px;
+   border-radius: 10px;
+
+}
+
+@mixin agendaa
+{
+   
+   padding-bottom: 1em;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   margin-left: 2%;
+   margin-right: 60%;
+   width: 280px;
+   height: 100px;
+   border-radius: 1em;
 }

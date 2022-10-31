@@ -1,44 +1,56 @@
-  // modo pantalla celular
+
+// importo mixin.scss
+@import"mixin";
+
+// genero variable
+$color:#e9f9ff;
+
+ 
+ // modo pantalla celular
+
+
+ .nav-link 
+   {
+      //modifico el nav de bubtrap con important ya que lo llama desde linck
+      margin: 3px !important;
+      background-color: rgb(85, 83, 83)!important;
+   }   
+
 
 
 .fotodefondo
 { 
-   margin-top: 20px;
-   border-radius: 40px;
-   padding: 100px;
+   // incluyo mixin
+   @include fotos_index;
+   padding: 6.25rem;
    background: url(../imagenes/precentacion.jpg);   
    background-size: cover; 
    background-repeat: no-repeat;
    background-position: center;
-
-   animation-name: entrada-superior;
-   animation-duration: 2s; 
-   animation-iteration-count: 1;
-   animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);;
-   animation-delay: 1s;
-    
+   @include animacion;
+   animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
 
 }
 
 .contenido6
 {
+   // incluyo mixin
+   @include fotos_index;
+   background-color: $color;
+   display: flex; 
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-bottom: 1.25rem;
+   margin-left: 1.25rem;
+   margin-right: 1.25rem;
+   justify-content: space-evenly;
+   align-items: flex-start;
 
-background-color: #e9dfdf;
-display: flex; 
-flex-direction: row;
-flex-wrap: wrap;
-margin-top: 20px;
-margin-bottom: 20px;
-margin-left: 20px;
-margin-right: 20px;
-border-radius: 10px;
-justify-content: space-evenly;
-align-items: flex-start;
-
-// introducimos el h1 dentro de contenido6
-h1{
-   color:black;
-}
+// introducimos nextin
+   h1
+   {
+      color:black;
+   }
 
 }
 
@@ -47,68 +59,77 @@ h1{
 {
    
    background: url(../imagenes/tecnico_instalando_aire.jpg);
-   margin-top: 20px;
-   border-radius: 40px;
-   padding: 100px;
+   // incluyo mixin
+   @include fotos_index;
+   padding: 6.25rem;
    background-size: cover;
    background-repeat: no-repeat;
-
-   animation-name: entrada-superior;
-   animation-duration: 2s; 
-   animation-iteration-count: 1;
    animation-timing-function: ease-in-out;
-   animation-delay: 1s;
-    
+   @include animacion
 
 }
 
 
 .linkapaginas
  {
-   margin: 6%;
-   border-radius: 40px;
-   padding: 5%;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   align-content: space-around;
-   flex-wrap: nowrap;
-   justify-content: space-between;   
-   background-color: #e9f9ff; 
+   // incluyo mixin
+    @include fotos_index;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: space-between;   
+    background-color: $color; 
  
  }
   
  .historia
-{
-    width: 200px;  
-    height: 200px;
-    background: #e9f9ff; 
-    border-radius: 10px;
+ {
+    width: 12.5rem;  
+    height: 12.5rem;
+    background:$color; 
+    border-radius: 0.625rem;
     
-}
+ }
 
  
  @keyframes entrada-superior{
     0%{
-        transform: translateY(-500px);
+        transform: translateY(-31.25rem);
     }
  
     100%{
-        transform: translateY(0px);
+        transform: translateY(0rem);
     }
  }
 
- @media screen and (min-width: 768px) 
-{
+ @media screen and (min-width: 48rem) 
+ {
   // modo pantalla laptop
 
+   .nav-link 
+   {
+      //modifico el nav de bubtrap con important ya que lo llama desde linck
+      margin: 15px !important;
+      background-color: rgb(85, 83, 83)!important;
+   }   
+
+   .logo
+   {
+      padding: 110px;
+      background: url(../imagenes/logo.jpg);
+      background-repeat: no-repeat; 
+   }
 
     .fotodefondo
     { 
-       margin-top: 20px;
-       border-radius: 40px;
-       padding: 260px;
-       background: url(../imagenes/precentacion.jpg);   
+      
+      // incluyo mixin
+      @include fotos_index;
+       padding: 16.25rem;
+      background: url(../imagenes/precentacion.jpg);   
        background-size: cover; 
        background-repeat: no-repeat;
        background-position: center;
@@ -120,39 +141,25 @@ h1{
        animation-delay: 1s;
     }
     
-.fotohistoria
-{
-   
-   background: url(../imagenes/tecnico_instalando_aire.jpg);
-   margin-top: 20px;
-   border-radius: 40px;
-   padding: 100px;
-   background-size: cover;
-   background-repeat: no-repeat;
+   .fotohistoria
+    {
+     margin-top: 0rem;
+     padding: 0rem;
 
-   animation-name: entrada-superior;
-   animation-duration: 2s; 
-   animation-iteration-count: 1;
-   animation-timing-function: ease-in-out;
-   animation-delay: 1s;
-    
-
-
-
-      }
+    }
     
     .linkapaginas
      {
-       margin: 6%;
-       border-radius: 40px;
-       padding: 5%;
+      // incluyo mixin
+       @include fotos_index;
+       padding: 0%;
        display: flex;
-       flex-direction: column;
+       flex-direction: row;
        align-items: center;
-       align-content: space-around;
+       align-content: center;
+       background-color: $color;
        flex-wrap: nowrap;
-       justify-content: space-between;   
-       background-color: #e9f9ff;
+       justify-content: center
      
      } 
     

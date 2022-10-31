@@ -2,7 +2,8 @@
 // modo pantalla celular
 
 // variable
-$color_fondodefoto: #d9d5d5;
+@import"mixin";
+
 
 .fotosdetrabajos
 {
@@ -21,37 +22,32 @@ grid-template-areas:
 "f9"
 ;
 }
+
 .fondodefoto1
 {
+
    @include fondodefoto;
-   background-color: $color_fondodefoto;
    grid-area: f1;
  
 
       .foto1
    {
      @include fotos;
-     background: url(../imagenes/fotodetrabajos1C.jpg);
+     background: url(../imagenes/fotodetrabajos1L.jpg);
      grid-area: f1;
    }
 } 
 
-
-
-
-
-
 .fondodefoto2
 {
    @include fondodefoto;
-   background-color: $color_fondodefoto;
    grid-area: f2;
  
  
    .foto2
    {
    @include fotos;
-   background: url(../imagenes/fotodetrabajos2C.jpg);
+   background: url(../imagenes/fotodetrabajos2L.jpg);
    grid-area: f2;
    }
 }
@@ -60,14 +56,13 @@ grid-template-areas:
 .fondodefoto3
 {
    @include fondodefoto;
-   background-color: $color_fondodefoto;
    grid-area: f3;
  
  
    .foto3
    {
    @include fotos;
-   background: url(../imagenes/fotodetrabajos3C.jpg);
+   background: url(../imagenes/fotodetrabajos3L.jpg);
    grid-area: f3;
    }  
 }
@@ -76,15 +71,13 @@ grid-template-areas:
 .fondodefoto4
 {
    @include fondodefoto;
-   background-color: $color_fondodefoto;
    grid-area: f4;
  
  
    .foto4
    {
-   
    @include fotos;
-   background: url(../imagenes/fotodetrabajos4C.jpg);
+   background: url(../imagenes/fotodetrabajos4L.jpg);
    grid-area: f4;
    }
 }
@@ -94,13 +87,12 @@ grid-template-areas:
 .fondodefoto5
 {
    @include fondodefoto;
-   background-color: $color_fondodefoto;
    grid-area: f5;
  
    .foto5
    {
    @include fotos;
-   background: url(../imagenes/fotodetrabajos5C.jpg);
+   background: url(../imagenes/fotodetrabajos5L.jpg);
    grid-area: f5;
    }  
 }
@@ -108,13 +100,12 @@ grid-template-areas:
 .fondodefoto6
 {
    @include fondodefoto;
-   background-color: $color_fondodefoto;
    grid-area: f6;
  
    .foto6
    {
    @include fotos;
-   background: url(../imagenes/fotodetrabajos6C.jpg);
+   background: url(../imagenes/fotodetrabajos6L.jpg);
    grid-area: f6;
    }  
 
@@ -123,14 +114,13 @@ grid-template-areas:
 .fondodefoto7
 {
    @include fondodefoto;
-   background-color: $color_fondodefoto;
    grid-area: f7;
  
  
    .foto7
    {
    @include fotos;
-   background: url(../imagenes/fotodetrabajos7C.jpg);
+   background: url(../imagenes/fotodetrabajos7L.jpg);
    grid-area: f7;
    }
 
@@ -140,13 +130,12 @@ grid-template-areas:
 .fondodefoto8
 {
    @include fondodefoto;
-   background-color: $color_fondodefoto;
    grid-area: f8;
  
    .foto8
    {
    @include fotos;
-   background: url(../imagenes/fotodetrabajos8C.jpg);
+   background: url(../imagenes/fotodetrabajos8L.jpg);
    grid-area: f8;
    }  
 
@@ -156,14 +145,13 @@ grid-template-areas:
 .fondodefoto9
 {
    @include fondodefoto;
-   background-color: $color_fondodefoto;
    grid-area: f9;
  
  
    .foto9
    {
    @include fotos;
-   background: url(../imagenes/fotodetrabajos9C.jpg);
+   background: url(../imagenes/fotodetrabajos9L.jpg);
    grid-area:f9;
    }
 }
@@ -185,55 +173,55 @@ grid-template-areas:
 
 .foto1
 {
-   background: url(../imagenes/fotodetrabajos1L.jpg);
-   background-repeat: no-repeat;
+   background: url(../imagenes/fotodetrabajos1L.jpg);  
 }
 
 .foto2
 {
     background: url(../imagenes/fotodetrabajos2L.jpg);
-    background-repeat: no-repeat;
+    
 }
 
 .foto3
 {
     background: url(../imagenes/fotodetrabajos3L.jpg);
-    background-repeat: no-repeat;
+    
 }
 
 .foto4
 {
    background: url(../imagenes/fotodetrabajos4L.jpg);
-   background-repeat: no-repeat;
+   
 }
 
 .foto5
 {
     background: url(../imagenes/fotodetrabajos5L.jpg);
-    background-repeat: no-repeat;
+   
 }
 
 .foto6
 {
     background: url(../imagenes/fotodetrabajos6L.jpg);
-    background-repeat: no-repeat;
+   
 }
 
 .foto7
 {
    background: url(../imagenes/fotodetrabajos7L.jpg);
-   background-repeat: no-repeat;
+  
 }
 
 .foto8
 {
     background: url(../imagenes/fotodetrabajos8L.jpg);
-    background-repeat: no-repeat;
+    
 }
 
 .foto9
 {
     background: url(../imagenes/fotodetrabajos9L.jpg);
-    background-repeat: no-repeat;
+   
 }
+
 }

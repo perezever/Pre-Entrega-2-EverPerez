@@ -1,4 +1,6 @@
-  $color_fondogris:#A4A4A4;
+
+@import"mixin";
+$color_fondogris:#A4A4A4;
   
   // modo pantalla celular
 
@@ -7,11 +9,11 @@
 {
 display: flex; 
 flex-direction: column;
-margin-top: 20px;
-margin-bottom: 20px;
-margin-left: 20px;
-margin-right: 20px;
-border-radius: 10px;
+margin-top: 1.25rem;
+margin-bottom: 1.25rem;
+margin-left: 1.25rem;
+margin-right: 1.25rem;
+border-radius: 0.625rem;
 background:$color_fondogris;
 }
 
@@ -19,136 +21,67 @@ background:$color_fondogris;
 /* formato de caja de fondo en index2 */
 .fondo_gris_1
 {
-display: flex; 
-flex-direction: row;
-justify-content: space-between;
-
+   @include fondogris;
 }
 
 .fondo_gris_2
 {
-display: flex; 
-flex-direction: row;
-justify-content: space-between;
-
- 
+   @include fondogris;
 }
 
 .fondo_gris_3
 {
-display: flex; 
-flex-direction: row;
-justify-content: space-between;
-
+    @include fondogris;
 }
-
 
 .fondo_gris_4
 {
-display: flex; 
-flex-direction: row;
-justify-content: space-between;
-
+    @include fondogris;
 }
-
-
 
 .dato_tecnico_1
 {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 400px;
-    height: 100px;
-    border-radius: 10px;
-    background: #e9dfdf;
-  
+     @include datotecnico;
 }
+
 
 .foto_tecnico_1 
 {
     background: url(../imagenes/fotoeric.jpg);
-    background-repeat: no-repeat;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 200px;
-    height: 100px;
-    border-radius: 10px;
- 
-    
-   
+    @include fototecnico;
 }
+
 .dato_tecnico_2
 {
-
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 400px;
-    height: 100px;
-    border-radius: 10px;
-    background: #e9dfdf;
-
-   
+    @include datotecnico;
 }
 
 .foto_tecnico_2 
 {
    background: url(../imagenes/fotojose.jpg);
-   background-repeat: no-repeat;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 200px;
-    height: 100px;
-    border-radius: 10px;
-    
-    
+   @include fototecnico;
 }
+
 .dato_tecnico_3
 {
-
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 400px;
-    height: 100px;
-    border-radius: 10px;
-    background: #e9dfdf;
-    
+    @include datotecnico;
 }
 
 .foto_tecnico_3 
 {
    background: url(../imagenes/fotojuancho.jpg);
-   background-repeat: no-repeat;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 200px;
-    height: 100px;
-    border-radius: 10px;
-  
-    
+   @include fototecnico;
 }
+
 .dato_tecnico_4
 {
-
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 400px;
-    height: 100px;
-    border-radius: 10px;
-    background: #e9dfdf;
-   
+    @include datotecnico;
 }
 
 .foto_tecnico_4 
 {  
    background: url(../imagenes/fotogerman.jpg);
-   background-repeat: no-repeat;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 200px;
-    height: 100px;
-    border-radius: 10px;
-    
-    
+   @include fototecnico;
 }
 
 .foto_tecnico_1:hover
@@ -174,33 +107,33 @@ justify-content: space-between;
    transform: scale(1.5) ;
 }
 
-@media screen and (min-width: 768px) 
+@media screen and (min-width: 48rem) 
 {
   // modo pantalla laptop
 
 
     .dato_tecnico_1
  {
-     width: 600px;
+     width: 37.5rem;
  }
 
  .dato_tecnico_2
  {
-     width: 600px;
+     width: 37.5rem;
  }
 
  .dato_tecnico_3
  {
-     width: 600px;
+     width: 37.5rem;
  }
 
  .dato_tecnico_4
  {
-     width: 600px;
+     width: 37.5rem;
  }
 
  .foto_pantalla_5
  {
-   min-height: 300px;
+   min-height: 18.75rem;
  }
 }
