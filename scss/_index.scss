@@ -121,7 +121,17 @@ $color:#e9f9ff;
       padding: 110px;
       background: url(../imagenes/logo.jpg);
       background-repeat: no-repeat; 
+      
+         h3
+            {
+               display: flex;
+               flex-direction: column;
+
+            }   
+   
+      
    }
+
 
    %fotos_index
 {

@@ -72,6 +72,9 @@ body {
     padding: 110px;
     background: url(../imagenes/logo.jpg);
     background-repeat: no-repeat; }
+    .logo h3 {
+      display: flex;
+      flex-direction: column; }
   .fotodefondo, .contenido6, .fotohistoria, .linkapaginas {
     margin-top: 1.25rem;
     border-radius: 2.5rem; }
