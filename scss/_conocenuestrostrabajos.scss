@@ -23,6 +23,18 @@ grid-template-areas:
 ;
 }
 
+%fotos 
+{
+    font-size: 2rem;
+    margin: 2%;        
+    border-radius: 10%;
+    padding: 30%;
+    background-repeat: no-repeat;
+
+   
+}
+
+
 .fondodefoto1
 {
 
@@ -32,7 +44,7 @@ grid-template-areas:
 
       .foto1
    {
-     @include fotos;
+     @extend %fotos;
      background: url(../imagenes/fotodetrabajos1L.jpg);
      grid-area: f1;
    }
@@ -46,7 +58,7 @@ grid-template-areas:
  
    .foto2
    {
-   @include fotos;
+   @extend %fotos;
    background: url(../imagenes/fotodetrabajos2L.jpg);
    grid-area: f2;
    }
@@ -61,7 +73,7 @@ grid-template-areas:
  
    .foto3
    {
-   @include fotos;
+   @extend %fotos;
    background: url(../imagenes/fotodetrabajos3L.jpg);
    grid-area: f3;
    }  
@@ -76,7 +88,7 @@ grid-template-areas:
  
    .foto4
    {
-   @include fotos;
+   @extend %fotos;
    background: url(../imagenes/fotodetrabajos4L.jpg);
    grid-area: f4;
    }
@@ -91,7 +103,7 @@ grid-template-areas:
  
    .foto5
    {
-   @include fotos;
+   @extend %fotos;
    background: url(../imagenes/fotodetrabajos5L.jpg);
    grid-area: f5;
    }  
@@ -104,7 +116,7 @@ grid-template-areas:
  
    .foto6
    {
-   @include fotos;
+   @extend %fotos;
    background: url(../imagenes/fotodetrabajos6L.jpg);
    grid-area: f6;
    }  
@@ -119,7 +131,7 @@ grid-template-areas:
  
    .foto7
    {
-   @include fotos;
+   @extend %fotos;
    background: url(../imagenes/fotodetrabajos7L.jpg);
    grid-area: f7;
    }
@@ -134,7 +146,7 @@ grid-template-areas:
  
    .foto8
    {
-   @include fotos;
+   @extend %fotos;
    background: url(../imagenes/fotodetrabajos8L.jpg);
    grid-area: f8;
    }  
@@ -150,7 +162,7 @@ grid-template-areas:
  
    .foto9
    {
-   @include fotos;
+   @extend %fotos;
    background: url(../imagenes/fotodetrabajos9L.jpg);
    grid-area:f9;
    }

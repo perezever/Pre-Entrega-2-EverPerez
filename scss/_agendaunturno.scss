@@ -29,26 +29,29 @@
   width: 95%;
   height: 100px;
 }
+
+%tamaño 
+{
+  width: 95%;
+  height: 6.25rem;
+}
+
 .fecha_disponible
 { 
-  width: 95%;
-  height: 100px;
+  @extend %tamaño;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: center;
   justify-content: space-around;
   align-items: center;
-
-  
 }
 
 .botonapresupuestos
  {
    display: flex;
    flex-direction: column;
-   width: 95%;
-   height: 100px;
+   @extend %tamaño; 
    flex-wrap: nowrap;
    align-items: center;
    justify-content: center;

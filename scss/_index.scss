@@ -21,7 +21,7 @@ $color:#e9f9ff;
 .fotodefondo
 { 
    // incluyo mixin
-   @include fotos_index;
+   @extend %fotos_index;
    padding: 6.25rem;
    background: url(../imagenes/precentacion.jpg);   
    background-size: cover; 
@@ -35,7 +35,7 @@ $color:#e9f9ff;
 .contenido6
 {
    // incluyo mixin
-   @include fotos_index;
+   @extend %fotos_index;
    background-color: $color;
    display: flex; 
    flex-direction: row;
@@ -60,7 +60,7 @@ $color:#e9f9ff;
    
    background: url(../imagenes/tecnico_instalando_aire.jpg);
    // incluyo mixin
-   @include fotos_index;
+   @extend %fotos_index;
    padding: 6.25rem;
    background-size: cover;
    background-repeat: no-repeat;
@@ -73,7 +73,7 @@ $color:#e9f9ff;
 .linkapaginas
  {
    // incluyo mixin
-    @include fotos_index;
+   @extend %fotos_index;
     padding: 5%;
     display: flex;
     flex-direction: column;
@@ -123,13 +123,23 @@ $color:#e9f9ff;
       background-repeat: no-repeat; 
    }
 
+   %fotos_index
+{
+   margin-top: 1.25rem;
+   border-radius: 2.5rem;
+ 
+}
+
+
+
     .fotodefondo
     { 
       
-      // incluyo mixin
-      @include fotos_index;
+      width: 95%;
+      height: 6.25rem;
+       @extend %fotos_index;
        padding: 16.25rem;
-      background: url(../imagenes/precentacion.jpg);   
+       background: url(../imagenes/precentacion.jpg);   
        background-size: cover; 
        background-repeat: no-repeat;
        background-position: center;
@@ -151,7 +161,7 @@ $color:#e9f9ff;
     .linkapaginas
      {
       // incluyo mixin
-       @include fotos_index;
+      @extend %fotos_index;
        padding: 0%;
        display: flex;
        flex-direction: row;
