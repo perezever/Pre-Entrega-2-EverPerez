@@ -22,21 +22,25 @@ background:$color_fondogris;
 .fondo_gris_1
 {
    @include fondogris;
+  
 }
 
 .fondo_gris_2
 {
    @include fondogris;
+   
 }
 
 .fondo_gris_3
 {
     @include fondogris;
+   
 }
 
 .fondo_gris_4
 {
     @include fondogris;
+    
 }
 
 .dato_tecnico_1
@@ -136,4 +140,50 @@ background:$color_fondogris;
  {
    min-height: 18.75rem;
  }
+
+ .foto_tecnico_1 
+{
+    height: 120px;
+}
+
+ .foto_tecnico_2 
+{
+    height: 120px;
+}
+
+
+ .foto_tecnico_3 
+{
+    height: 120px;
+}
+
+ .foto_tecnico_4 
+{  
+   height: 120px;
+}
+
+.fondo_gris_1
+{
+    flex-direction:row;
+}
+
+.fondo_gris_2
+{
+    flex-direction:row;
+   
+}
+
+.fondo_gris_3
+{
+    flex-direction:row;
+   
+}
+
+.fondo_gris_4
+{
+    flex-direction:row;
+    
+}
+
+
 }
