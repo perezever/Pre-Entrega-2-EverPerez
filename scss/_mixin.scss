@@ -31,15 +31,16 @@
 
 @mixin datotecnico
 {
-   
+      display: grid;
+      justify-content: center;
       margin-top: 2%;
       margin-bottom: 2%;
       width: 25rem;
       height: 6.25rem;
       border-radius: 0.625rem;
-      background: #e9dfdf;
+      background: black;
+      color: #a4a1a1;
     
-  
 }
 
 @mixin fototecnico

@@ -3,12 +3,55 @@
 
 // modo pantalla celular
 
+.agendaut
+{
+  
+  display: grid;
+  grid-template-columns: auto;
+
+
 /* agenda en agendaunturno */
 .agenda
-{
-   background: url(../imagenes/agenda.jpg);  
-   @include agendaa;
-}
+  { 
+
+  //    background: url(../imagenes/agenda.jpg);  
+  // @include agendaa;
+  //
+  
+  width: auto;
+  height: auto;
+  background-color: #2d2e2f;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 1em;
+
+  
+  h1
+  {
+    color: #9ea294;
+  }
+
+  ol
+  {
+    color: azure;
+    list-style: none;
+    display: grid;
+    grid-template-columns:repeat(7, 1fr);
+  }
+
+  .arranca 
+    {
+      grid-column-start:2;
+    }
+
+    .dia
+    {
+      background-color: azure;
+      font-weight: bould;
+      color: black;
+    }
+  }
 
 /* fecha disponible */
 .fecha_disponible
@@ -27,7 +70,7 @@
 .agenda
 {
   width: 95%;
-  height: 100px;
+  height: auto;
 }
 
 %tamaño 
@@ -58,5 +101,6 @@
 
 }
 
+}
 }
 

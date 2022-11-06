@@ -116,64 +116,101 @@ body {
   background-position: center;
   font-family: sans-serif;
   border-radius: 2em; }
-
-/* agenda en agendaunturno */
-.agenda {
-  background: url(../imagenes/agenda.jpg);
-  padding-bottom: 1em;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 2%;
-  margin-right: 60%;
-  width: 17.5rem;
-  height: 6.25rem;
-  border-radius: 1em; }
-
-/* fecha disponible */
-.fecha_disponible {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background: #e9dfdf;
-  padding-bottom: 1em;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 2%;
-  margin-right: 60%;
-  width: 17.5rem;
-  height: 6.25rem;
-  border-radius: 1em; }
-
-@media screen and (min-width: 768px) {
-  .agenda {
-    width: 95%;
-    height: 100px; }
-  .fecha_disponible, .botonapresupuestos {
-    width: 95%;
-    height: 6.25rem; }
-  .fecha_disponible {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center; }
-  .botonapresupuestos {
+  .foto_pantalla_5 .formulario {
     display: flex;
     flex-direction: column;
+    width: 25rem;
+    color: #f8f9fa; }
+  .foto_pantalla_5 .terminosycondiciones {
+    display: flex;
+    width: 15rem;
     flex-wrap: nowrap;
+    flex-direction: row-reverse; }
+  .foto_pantalla_5 .consulta {
+    padding: 1rem; }
+
+@media screen and (min-width: 768px) {
+  .foto_pantalla_5 {
+    margin: 3%;
+    min-height: 6.25rem;
+    background: url(../imagenes/foto_chica_atendiendo_llamado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+    border-radius: 2em; } }
+
+.agendaut {
+  display: grid;
+  grid-template-columns: auto;
+  /* agenda en agendaunturno */
+  /* fecha disponible */ }
+  .agendaut .agenda {
+    width: auto;
+    height: auto;
+    background-color: #2d2e2f;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 1em; }
+    .agendaut .agenda h1 {
+      color: #9ea294; }
+    .agendaut .agenda ol {
+      color: azure;
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr); }
+    .agendaut .agenda .arranca {
+      grid-column-start: 2; }
+    .agendaut .agenda .dia {
+      background-color: azure;
+      font-weight: bould;
+      color: black; }
+  .agendaut .fecha_disponible {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center; } }
+    background: #e9dfdf;
+    padding-bottom: 1em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 60%;
+    width: 17.5rem;
+    height: 6.25rem;
+    border-radius: 1em; }
+  @media screen and (min-width: 768px) {
+    .agendaut .agenda {
+      width: 95%;
+      height: auto; }
+    .agendaut .fecha_disponible, .agendaut .botonapresupuestos {
+      width: 95%;
+      height: 6.25rem; }
+    .agendaut .fecha_disponible {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: space-around;
+      align-items: center; }
+    .agendaut .botonapresupuestos {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center; } }
 
 .fondo_gris {
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
   margin-left: 1.25rem;
   margin-right: 1.25rem;
   border-radius: 0.625rem;
-  background: #A4A4A4; }
+  background: #414040; }
 
 /* formato de caja de fondo en index2 */
 .fondo_gris_1 {
@@ -197,12 +234,15 @@ body {
   justify-content: space-between; }
 
 .dato_tecnico_1 {
+  display: grid;
+  justify-content: center;
   margin-top: 2%;
   margin-bottom: 2%;
   width: 25rem;
   height: 6.25rem;
   border-radius: 0.625rem;
-  background: #e9dfdf; }
+  background: black;
+  color: #a4a1a1; }
 
 .foto_tecnico_1 {
   background: url(../imagenes/fotoeric.jpg);
@@ -214,12 +254,15 @@ body {
   border-radius: 0.625rem; }
 
 .dato_tecnico_2 {
+  display: grid;
+  justify-content: center;
   margin-top: 2%;
   margin-bottom: 2%;
   width: 25rem;
   height: 6.25rem;
   border-radius: 0.625rem;
-  background: #e9dfdf; }
+  background: black;
+  color: #a4a1a1; }
 
 .foto_tecnico_2 {
   background: url(../imagenes/fotojose.jpg);
@@ -231,12 +274,15 @@ body {
   border-radius: 0.625rem; }
 
 .dato_tecnico_3 {
+  display: grid;
+  justify-content: center;
   margin-top: 2%;
   margin-bottom: 2%;
   width: 25rem;
   height: 6.25rem;
   border-radius: 0.625rem;
-  background: #e9dfdf; }
+  background: black;
+  color: #a4a1a1; }
 
 .foto_tecnico_3 {
   background: url(../imagenes/fotojuancho.jpg);
@@ -248,12 +294,15 @@ body {
   border-radius: 0.625rem; }
 
 .dato_tecnico_4 {
+  display: grid;
+  justify-content: center;
   margin-top: 2%;
   margin-bottom: 2%;
   width: 25rem;
   height: 6.25rem;
   border-radius: 0.625rem;
-  background: #e9dfdf; }
+  background: black;
+  color: #a4a1a1; }
 
 .foto_tecnico_4 {
   background: url(../imagenes/fotogerman.jpg);
@@ -277,14 +326,6 @@ body {
   transform: scale(1.5); }
 
 @media screen and (min-width: 48rem) {
-  .dato_tecnico_1 {
-    width: 37.5rem; }
-  .dato_tecnico_2 {
-    width: 37.5rem; }
-  .dato_tecnico_3 {
-    width: 37.5rem; }
-  .dato_tecnico_4 {
-    width: 37.5rem; }
   .foto_pantalla_5 {
     min-height: 18.75rem; }
   .foto_tecnico_1 {

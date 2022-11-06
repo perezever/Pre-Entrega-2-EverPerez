@@ -9,4 +9,45 @@
    background-position: center; 
    font-family: sans-serif;   
    border-radius: 2em;
+   
+
+   .formulario 
+   {
+   display: flex;
+   flex-direction: column;
+   width: 25rem;
+   color: #f8f9fa;
+  
    }
+
+   .terminosycondiciones
+   {
+   display: flex;
+   width: 15rem;
+   flex-wrap: nowrap;
+   flex-direction: row-reverse;
+   }
+
+   .consulta 
+   {
+   padding: 1rem;
+   }
+
+}
+
+@media screen and (min-width: 768px) 
+{
+
+   .foto_pantalla_5
+{ 
+   margin: 3%;
+   min-height: 6.25rem; 
+   background: url(../imagenes/foto_chica_atendiendo_llamado.jpg);  
+   background-size: cover;  
+   background-repeat: no-repeat;
+   background-position: center; 
+   font-family: sans-serif;   
+   border-radius: 2em;
+   }
+
+}

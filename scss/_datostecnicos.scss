@@ -1,20 +1,24 @@
 
 @import"mixin";
-$color_fondogris:#A4A4A4;
+$color_fondogris:#414040;
     
   // modo pantalla celular
 
 
 .fondo_gris
 {
+// background: url(../imagenes/manometro.jpg);
+background-repeat: no-repeat;
 display: flex; 
 flex-direction: column;
+align-items: center;
 margin-top: 1.25rem;
 margin-bottom: 1.25rem;
 margin-left: 1.25rem;
 margin-right: 1.25rem;
 border-radius: 0.625rem;
 background:$color_fondogris;
+
 }
 
 
@@ -115,26 +119,6 @@ background:$color_fondogris;
 {
   // modo pantalla laptop
 
-
-    .dato_tecnico_1
- {
-     width: 37.5rem;
- }
-
- .dato_tecnico_2
- {
-     width: 37.5rem;
- }
-
- .dato_tecnico_3
- {
-     width: 37.5rem;
- }
-
- .dato_tecnico_4
- {
-     width: 37.5rem;
- }
 
  .foto_pantalla_5
  {
