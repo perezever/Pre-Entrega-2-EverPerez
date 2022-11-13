@@ -3,7 +3,8 @@
 @import"mixin";
 
 // genero variable
-$color:#e9f9ff;
+$color:#48494a;
+$color1:black;
 
  
  // modo pantalla celular
@@ -22,6 +23,8 @@ $color:#e9f9ff;
 { 
    // incluyo mixin
    @extend %fotos_index;
+   margin: 10px;
+   border-radius: 20px;
    padding: 6.25rem;
    background: url(../imagenes/precentacion.jpg);   
    background-size: cover; 
@@ -29,6 +32,11 @@ $color:#e9f9ff;
    background-position: center;
    @include animacion;
    animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+   
+   h3
+   {
+      color: #a8a8a8;
+   }
 
 }
 
@@ -45,12 +53,19 @@ $color:#e9f9ff;
    margin-right: 1.25rem;
    justify-content: space-evenly;
    align-items: flex-start;
+   border-radius: 0.625rem;
+   margin: 1.25rem;
 
 // introducimos nextin
    h1
    {
-      color:black;
+      color:#a9acb0;
    }
+
+   p
+    {
+      color:#a9acb0;
+    }
 
 }
 
@@ -65,7 +80,9 @@ $color:#e9f9ff;
    background-size: cover;
    background-repeat: no-repeat;
    animation-timing-function: ease-in-out;
-   @include animacion
+   @include animacion;
+   margin: 10px;
+   border-radius: 20px;
 
 }
 
@@ -81,7 +98,7 @@ $color:#e9f9ff;
     align-content: space-around;
     flex-wrap: nowrap;
     justify-content: space-between;   
-    background-color: $color; 
+    background-color: $color1; 
  
  }
   
@@ -126,6 +143,7 @@ $color:#e9f9ff;
             {
                display: flex;
                flex-direction: column;
+               color: #edd6d6;
 
             }   
    
@@ -171,22 +189,34 @@ $color:#e9f9ff;
     .linkapaginas
      {
       // incluyo mixin
-      @extend %fotos_index;
+      // @extend %fotos_index;
        padding: 0%;
        display: flex;
        flex-direction: row;
        align-items: center;
        align-content: center;
-       background-color: $color;
-       flex-wrap: nowrap;
-       justify-content: center
+       background-color: $color1;
+       justify-content: center;
+       margin: 2.5rem;
+
      
      } 
     
     
-     .linkapaginas:hover
+     .facebock
      {
-        transform: scale(1.5) ;
+      padding-left: 0px;
      }
-    
-}   
+
+     .instagram
+     {
+      padding-left: 150px;
+     }
+
+     .youtube
+     {
+      padding-left: 150px;
+     }
+
+   }
+  

@@ -7,6 +7,8 @@ body {
   background-color: #555353 !important; }
 
 .fotodefondo {
+  margin: 10px;
+  border-radius: 20px;
   padding: 6.25rem;
   background: url(../imagenes/precentacion.jpg);
   background-size: cover;
@@ -17,9 +19,11 @@ body {
   animation-iteration-count: 1;
   animation-delay: 1s;
   animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55); }
+  .fotodefondo h3 {
+    color: #a8a8a8; }
 
 .contenido6 {
-  background-color: #e9f9ff;
+  background-color: #48494a;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -27,9 +31,13 @@ body {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
   justify-content: space-evenly;
-  align-items: flex-start; }
+  align-items: flex-start;
+  border-radius: 0.625rem;
+  margin: 1.25rem; }
   .contenido6 h1 {
-    color: black; }
+    color: #a9acb0; }
+  .contenido6 p {
+    color: #a9acb0; }
 
 .fotohistoria {
   background: url(../imagenes/tecnico_instalando_aire.jpg);
@@ -40,7 +48,9 @@ body {
   animation-name: entrada-superior;
   animation-duration: 2s;
   animation-iteration-count: 1;
-  animation-delay: 1s; }
+  animation-delay: 1s;
+  margin: 10px;
+  border-radius: 20px; }
 
 .linkapaginas {
   padding: 5%;
@@ -50,12 +60,12 @@ body {
   align-content: space-around;
   flex-wrap: nowrap;
   justify-content: space-between;
-  background-color: #e9f9ff; }
+  background-color: black; }
 
 .historia {
   width: 12.5rem;
   height: 12.5rem;
-  background: #e9f9ff;
+  background: #48494a;
   border-radius: 0.625rem; }
 
 @keyframes entrada-superior {
@@ -74,7 +84,8 @@ body {
     background-repeat: no-repeat; }
     .logo h3 {
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+      color: #edd6d6; }
   .fotodefondo, .contenido6, .fotohistoria, .linkapaginas {
     margin-top: 1.25rem;
     border-radius: 2.5rem; }
@@ -100,11 +111,15 @@ body {
     flex-direction: row;
     align-items: center;
     align-content: center;
-    background-color: #e9f9ff;
-    flex-wrap: nowrap;
-    justify-content: center; }
-  .linkapaginas:hover {
-    transform: scale(1.5); } }
+    background-color: black;
+    justify-content: center;
+    margin: 2.5rem; }
+  .facebock {
+    padding-left: 0px; }
+  .instagram {
+    padding-left: 150px; }
+  .youtube {
+    padding-left: 150px; } }
 
 /* imagen en toda la pantalla */
 .foto_pantalla_5 {
@@ -156,6 +171,7 @@ body {
     .agendaut .agenda h1 {
       color: #9ea294; }
     .agendaut .agenda ol {
+      pad: 0rem;
       color: azure;
       list-style: none;
       display: grid;
@@ -178,7 +194,12 @@ body {
     margin-right: 60%;
     width: 17.5rem;
     height: 6.25rem;
-    border-radius: 1em; }
+    border-radius: 1em;
+    width: 24.375rem;
+    justify-content: space-evenly; }
+    .agendaut .fecha_disponible p {
+      color: red;
+      font-size: large; }
   @media screen and (min-width: 768px) {
     .agendaut .agenda {
       width: 95%;
@@ -193,6 +214,9 @@ body {
       align-content: center;
       justify-content: space-around;
       align-items: center; }
+      .agendaut .fecha_disponible p {
+        color: red;
+        font-size: x-large; }
     .agendaut .botonapresupuestos {
       display: flex;
       flex-direction: column;
@@ -205,10 +229,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
+  padding: 1.25rem;
   border-radius: 0.625rem;
   background: #414040; }
 
@@ -216,22 +237,22 @@ body {
 .fondo_gris_1 {
   display: flex;
   flex-direction: column-reverse;
-  justify-content: space-between; }
+  align-items: center; }
 
 .fondo_gris_2 {
   display: flex;
   flex-direction: column-reverse;
-  justify-content: space-between; }
+  align-items: center; }
 
 .fondo_gris_3 {
   display: flex;
   flex-direction: column-reverse;
-  justify-content: space-between; }
+  align-items: center; }
 
 .fondo_gris_4 {
   display: flex;
   flex-direction: column-reverse;
-  justify-content: space-between; }
+  align-items: center; }
 
 .dato_tecnico_1 {
   display: grid;
@@ -249,7 +270,7 @@ body {
   background-repeat: no-repeat;
   margin-top: 2%;
   margin-bottom: 2%;
-  width: 200px;
+  width: 7.5rem;
   height: 6.25rem;
   border-radius: 0.625rem; }
 
@@ -269,7 +290,7 @@ body {
   background-repeat: no-repeat;
   margin-top: 2%;
   margin-bottom: 2%;
-  width: 200px;
+  width: 7.5rem;
   height: 6.25rem;
   border-radius: 0.625rem; }
 
@@ -289,7 +310,7 @@ body {
   background-repeat: no-repeat;
   margin-top: 2%;
   margin-bottom: 2%;
-  width: 200px;
+  width: 7.5rem;
   height: 6.25rem;
   border-radius: 0.625rem; }
 
@@ -309,23 +330,25 @@ body {
   background-repeat: no-repeat;
   margin-top: 2%;
   margin-bottom: 2%;
-  width: 200px;
+  width: 7.5rem;
   height: 6.25rem;
   border-radius: 0.625rem; }
 
 .foto_tecnico_1:hover {
-  transform: scale(1.5); }
+  transform: scale(2); }
 
 .foto_tecnico_2:hover {
-  transform: scale(1.5); }
+  transform: scale(2); }
 
 .foto_tecnico_3:hover {
-  transform: scale(1.5); }
+  transform: scale(2); }
 
 .foto_tecnico_4:hover {
-  transform: scale(1.5); }
+  transform: scale(2); }
 
 @media screen and (min-width: 48rem) {
+  .fondo_gris {
+    width: 900px; }
   .foto_pantalla_5 {
     min-height: 18.75rem; }
   .foto_tecnico_1 {
@@ -356,7 +379,8 @@ body {
   margin: 2%;
   border-radius: 10%;
   padding: 30%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  width: 200px; }
 
 .fondodefoto1 {
   background-color: #d9d5d5;

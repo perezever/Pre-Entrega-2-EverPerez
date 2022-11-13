@@ -7,15 +7,11 @@ $color_fondogris:#414040;
 
 .fondo_gris
 {
-// background: url(../imagenes/manometro.jpg);
 background-repeat: no-repeat;
 display: flex; 
 flex-direction: column;
 align-items: center;
-margin-top: 1.25rem;
-margin-bottom: 1.25rem;
-margin-left: 1.25rem;
-margin-right: 1.25rem;
+padding: 1.25rem;
 border-radius: 0.625rem;
 background:$color_fondogris;
 
@@ -94,30 +90,36 @@ background:$color_fondogris;
 
 .foto_tecnico_1:hover
  {
-    transform: scale(1.5) ;
+    transform: scale(2) ;
  }
 
  
 .foto_tecnico_2:hover
 {
-   transform: scale(1.5) ;
+   transform: scale(2) ;
 }
 
 
 .foto_tecnico_3:hover
  {
-    transform: scale(1.5) ;
+    transform: scale(2) ;
  }
 
  
 .foto_tecnico_4:hover
 {
-   transform: scale(1.5) ;
+   transform: scale(2) ;
 }
 
 @media screen and (min-width: 48rem) 
 {
   // modo pantalla laptop
+
+
+  .fondo_gris
+  {
+    width: 900px;
+  }
 
 
  .foto_pantalla_5

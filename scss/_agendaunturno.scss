@@ -34,6 +34,7 @@
 
   ol
   {
+    pad: 0rem;
     color: azure;
     list-style: none;
     display: grid;
@@ -61,6 +62,13 @@
    align-items: center;
    background: #e9dfdf;
    @include agendaa;
+   width: 24.375rem;
+   justify-content: space-evenly;
+   p
+    {
+     color: red; 
+     font-size: large;
+    }
 }
 
 @media screen and (min-width: 768px) 
@@ -88,7 +96,15 @@
   align-content: center;
   justify-content: space-around;
   align-items: center;
+
+   p
+    {
+     color: red; 
+     font-size: x-large;
+    }
 }
+
+
 
 .botonapresupuestos
  {
