@@ -6,6 +6,7 @@
 $color:#48494a;
 $color1:black;
 
+
  
  // modo pantalla celular
 
@@ -131,53 +132,84 @@ $color1:black;
       //modifico el nav de bubtrap con important ya que lo llama desde linck
       margin: 15px !important;
       background-color: rgb(85, 83, 83)!important;
-   }   
-
-   .logo
-   {
-      padding: 110px;
-      background: url(../imagenes/logo.jpg);
-      background-repeat: no-repeat; 
-      
-         h3
-            {
-               display: flex;
-               flex-direction: column;
-               color: #edd6d6;
-
-            }   
-   
-      
    }
+    
 
-
-   %fotos_index
+  
+%fotos_index
 {
-   margin-top: 1.25rem;
-   border-radius: 2.5rem;
- 
+margin-top: 1.25rem;
+border-radius: 2.5rem;
 }
+
+
+
 
 
 
     .fotodefondo
     { 
       
-      width: 95%;
-      height: 6.25rem;
+       width: 95%;
+       height: 6.25rem;
        @extend %fotos_index;
        padding: 16.25rem;
        background: url(../imagenes/precentacion.jpg);   
        background-size: cover; 
        background-repeat: no-repeat;
        background-position: center;
+
+         display: grid;
+         justify-content: start;
+         align-content: center;
+         grid-gap: 1.25rem;
+         grid-template-areas:
+            "n1 n2 n2 "
+            "n2 n2 n2 "
+            "n3 n3 n3 "
+         ;
+      
     
        animation-name: entrada-superior;
        animation-duration: 2s; 
        animation-iteration-count: 1;
        animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
        animation-delay: 1s;
+    
+      .logo
+      {
+      grid-area: n1;
+      padding: 110px;
+      background: url(../imagenes/logo.png);
+      background-repeat: no-repeat; 
+      height: 350px;
+      width: 350px;
+       
+      }
+
+      .logo1
+      {
+      grid-area: n2;
+      padding: auto;
+      height: 350px;
+      width: 350px;
+      
+       
+      }   
+      
+      .logo2
+      {
+      grid-area: n3;
+      padding: auto;
+      height: 350px;
+      width: 350px;
+      
+       
+      }
+      
     }
+
+
     
    .fotohistoria
     {
@@ -189,7 +221,7 @@ $color1:black;
     .linkapaginas
      {
       // incluyo mixin
-      // @extend %fotos_index;
+    
        padding: 0%;
        display: flex;
        flex-direction: row;
@@ -203,19 +235,22 @@ $color1:black;
      } 
     
     
-     .facebock
+     .facebook
      {
       padding-left: 0px;
+      font-size: x-large;
      }
 
      .instagram
      {
       padding-left: 150px;
+      font-size: x-large;
      }
 
      .youtube
      {
       padding-left: 150px;
+      font-size: x-large;
      }
 
    }

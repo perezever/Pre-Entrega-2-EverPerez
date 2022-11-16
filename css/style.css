@@ -78,14 +78,6 @@ body {
   .nav-link {
     margin: 15px !important;
     background-color: #555353 !important; }
-  .logo {
-    padding: 110px;
-    background: url(../imagenes/logo.jpg);
-    background-repeat: no-repeat; }
-    .logo h3 {
-      display: flex;
-      flex-direction: column;
-      color: #edd6d6; }
   .fotodefondo, .contenido6, .fotohistoria, .linkapaginas {
     margin-top: 1.25rem;
     border-radius: 2.5rem; }
@@ -97,11 +89,33 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    grid-gap: 1.25rem;
+    grid-template-areas: "n1 n2 n2 " "n2 n2 n2 " "n3 n3 n3 ";
     animation-name: entrada-superior;
     animation-duration: 2s;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
     animation-delay: 1s; }
+    .fotodefondo .logo {
+      grid-area: n1;
+      padding: 110px;
+      background: url(../imagenes/logo.png);
+      background-repeat: no-repeat;
+      height: 350px;
+      width: 350px; }
+    .fotodefondo .logo1 {
+      grid-area: n2;
+      padding: auto;
+      height: 350px;
+      width: 350px; }
+    .fotodefondo .logo2 {
+      grid-area: n3;
+      padding: auto;
+      height: 350px;
+      width: 350px; }
   .fotohistoria {
     margin-top: 0rem;
     padding: 0rem; }
@@ -114,12 +128,15 @@ body {
     background-color: black;
     justify-content: center;
     margin: 2.5rem; }
-  .facebock {
-    padding-left: 0px; }
+  .facebook {
+    padding-left: 0px;
+    font-size: x-large; }
   .instagram {
-    padding-left: 150px; }
+    padding-left: 150px;
+    font-size: x-large; }
   .youtube {
-    padding-left: 150px; } }
+    padding-left: 150px;
+    font-size: x-large; } }
 
 /* imagen en toda la pantalla */
 .foto_pantalla_5 {
